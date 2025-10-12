@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+$titl="Export rozpoètu";
+$titl2=$titl;
+include("./ridici/menu.php");
+echo "<br>";
+include("./ridici/analyza-rozpocet.php");
+include("./ridici/menu2.php");
+?>

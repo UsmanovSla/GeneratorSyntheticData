@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Optimalizace strojiních sestav";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/optimalizace.php");
+include("./ridici/menu2.php");
+?>

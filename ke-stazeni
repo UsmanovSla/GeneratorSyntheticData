@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+$titl="Ke stažení";
+$titl2=$titl;
+include("./ridici/menu.php");
+echo "<br>";
+include("./ridici/kestazeni.php");
+include("./ridici/menu2.php");
+?>

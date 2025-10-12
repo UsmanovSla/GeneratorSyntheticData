@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Seznam použité literatury";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/seznam-literatury.php");
+include("./ridici/menu2.php");
+?>

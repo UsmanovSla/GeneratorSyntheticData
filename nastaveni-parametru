@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Modelování stavebního procesu: Nastavení parametrù";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/nastaveni-parametru.php");
+include("./ridici/menu2.php");
+?>

@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Modelování stavebního procesu: Graf nákladù";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/naklady-graf.php");
+include("./ridici/menu2.php");
+?>

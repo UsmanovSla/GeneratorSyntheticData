@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Ekonomický model";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/ekonomicky-model.php");
+include("./ridici/menu2.php");
+?>

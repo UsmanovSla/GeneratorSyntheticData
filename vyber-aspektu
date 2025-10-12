@@ -1,0 +1,132 @@
+<?php $titl="Výbìr aspektù";?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Language" content="cs"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title><?php echo $titl; ?></title><meta name="keywords" content="<?php echo $titl2; ?>"><meta name="description" content="<?php echo $titl2; ?>"><link rel="stylesheet" href="./skin/tisk.css"><link rel="shortcut icon" href="./skin/environmental.ico">
+</head><body>
+<h1>Výbìr aspektù:</h1>
+<script type="text/javascript"> 
+function vloz () {
+return;
+}
+function vloz(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31) {
+opener.document.form4.DEAKod.value = t1;
+opener.document.form4.DEAAsp1.value = t2;
+opener.document.form4.DEAAsp2.value = t3;
+opener.document.form4.DEAUtv.value = t4;
+opener.document.form4.DEAZar.value = t5;
+opener.document.form4.DEAPolut1.value = t6;
+opener.document.form4.DEAPolut2.value = t7;
+if (t8=="1") opener.document.form4.DEADopad1.checked = true; else opener.document.form4.DEADopad1.checked = false;
+if (t9=="1") opener.document.form4.DEADopad2.checked = true; else opener.document.form4.DEADopad2.checked = false;
+if (t10=="1") opener.document.form4.DEADopad3.checked = true; else opener.document.form4.DEADopad3.checked = false;
+if (t11=="1") opener.document.form4.DEADopad4.checked = true; else opener.document.form4.DEADopad4.checked = false;
+if (t12=="1") opener.document.form4.DEADopad5.checked = true; else opener.document.form4.DEADopad5.checked = false;
+if (t13=="1") opener.document.form4.DEADopad6.checked = true; else opener.document.form4.DEADopad6.checked = false;
+opener.document.form4.DEALimH.value = t14;
+opener.document.form4.DEAMJ.value = t15;
+opener.document.form4.DEAPredp.value = t16;
+opener.document.form4.DEARiz.value = t17;
+opener.document.form4.DEAVyzn1.value = t18;
+opener.document.form4.DEAVyzn2.value = t19;
+opener.document.form4.DEAVyzn3.value = t20;
+opener.document.form4.DEAVyzn4.value = t21;
+opener.document.form4.DEAVyzn5.value = t22;
+opener.document.form4.DEAVyzn6.value = t23;
+opener.document.form4.DEAVyzn7.value = t24;
+opener.document.form4.DEAVyzn8.value = t25;
+opener.document.form4.DEADokl.value = t26;
+opener.document.form4.DEAPrev1.value = t27;
+opener.document.form4.DEAPrev2.value = t28;
+opener.document.form4.DEAOpat1.value = t29;
+opener.document.form4.DEAOpat2.value = t30;
+opener.document.form4.DEAOdp.value = t31;
+opener.document.form4.DEAKod.focus();
+
+
+	hodnota=opener.document.form4.DEAVaha1.value*opener.document.form4.DEAVyzn1.value+opener.document.form4.DEAVaha2.value*opener.document.form4.DEAVyzn2.value+opener.document.form4.DEAVaha3.value*opener.document.form4.DEAVyzn3.value+opener.document.form4.DEAVaha4.value*opener.document.form4.DEAVyzn4.value+opener.document.form4.DEAVaha5.value*opener.document.form4.DEAVyzn5.value+opener.document.form4.DEAVaha6.value*opener.document.form4.DEAVyzn6.value+opener.document.form4.DEAVaha7.value*opener.document.form4.DEAVyzn7.value+opener.document.form4.DEAVaha8.value*opener.document.form4.DEAVyzn8.value;
+	opener.document.getElementById("DEACelkS").innerHTML="<b>"+hodnota+"</b>";
+	opener.document.form4.DEACelk.value=hodnota;
+
+}
+</script>
+
+<?php 
+
+require("./db/db.php");
+
+
+function kontrola ($promenna){
+	$promenna = EregI_Replace("<", "&lt;", $promenna);
+	$promenna = EregI_Replace(">", "&gt;", $promenna);
+	$promenna = EregI_Replace('"', '&quot;', $promenna);
+	$promenna = EregI_Replace('\'', '&quot;', $promenna);
+	$promenna=htmlspecialchars($promenna);
+return $promenna;
+}
+
+
+
+$celkem=mysql_result(mysql_query("SELECT count(*) FROM ReaRec",$connect2),0);
+
+
+?>
+Celkem bylo nalezeno <?php echo $celkem;?> aspektù
+<table border="1" style="border: 1px solid black" cellspacing="0" cellpadding="2">
+<tr>
+<td align="center"><b>Kód&nbsp;EA<br>Útvar</b></td>
+<td align="center"><b>Aspekt</b></td>
+<td align="center"><b>Polutanty</b></td>
+<td align="center"><b>Zaøízení<br>Odpovìdnost</b></td>
+
+<td align="center"></td>
+</tr>
+<?php
+
+	$getclanek = mysql_query("SELECT * FROM ReaRec Order by EAKod",$connect2);
+	while ($clanky = mysql_fetch_array($getclanek)){
+		$EAKod=$clanky['EAKod'];
+	
+		$EAAsp1=$clanky['EAAsp1'];
+		$EAAsp2=$clanky['EAAsp2'];
+		$EAUtv=$clanky['EAUtv'];
+		$EAZar=$clanky['EAZar'];
+		$EAPolut1=$clanky['EAPolut1'];
+		$EAPolut2=$clanky['EAPolut2'];
+		$EADopad=str_split($clanky['EADopad']);
+
+
+		$EALimH=$clanky['EALimH'];
+		$EAMJ=$clanky['EAMJ'];
+		$EAPredp=$clanky['EAPredp'];
+		$EARiz=$clanky['EARiz'];
+		$EAVyzn=str_split($clanky['EAVyzn']);
+
+
+
+		$EADokl=$clanky['EADokl'];
+		if (!$EADokl) $EADokl="&nbsp;";
+		$EAPrev1=$clanky['EAPrev1'];
+		$EAPrev2=$clanky['EAPrev2'];
+		$EAOpat1=$clanky['EAOpat1'];
+		$EAOpat2=$clanky['EAOpat2'];
+		$EAOdp=$clanky['EAOdp'];
+
+$vloz="'".$EAKod."','".$EAAsp1."','".$EAAsp2."','".$EAUtv."','".$EAZar."','".$EAPolut1."','".$EAPolut2."','".$EADopad[0]."','".$EADopad[1]."','".$EADopad[2]."','".$EADopad[3]."','".$EADopad[4]."','".$EADopad[5]."','".$EALimH."','".$EAMJ."','".$EAPredp."','".$EARiz."','".$EAVyzn[0]."','".$EAVyzn[1]."','".$EAVyzn[2]."','".$EAVyzn[3]."','".$EAVyzn[4]."','".$EAVyzn[5]."','".$EAVyzn[6]."','".$EAVyzn[7]."','".$EADokl."','".$EAPrev1."','".$EAPrev2."','".$EAOpat1."','".$EAOpat2."','".$EAOdp."'";
+
+
+echo '<tr><td align="center">'.$EAKod.'<br>'.$EAUtv.'</td>';
+echo '<td align="left"><b>'.$EAAsp1.'<br>'.$EAAsp2.'</b></td>
+<td align="left">'.$EAPolut1.'<br>'.$EAPolut2.'</td>
+<td align="left">'.$EAZar.'<br>'.$EAOdp.'</td>
+<td align="center"><a ONCLICK="vloz('.$vloz.');" alt=" " HREF="javascript:window.close();">Vybrat aspekt :::</a></td></tr>';
+
+	}
+	echo "</table>";
+
+
+
+
+
+?>
+<br><br>
+Copyright (c) 2010 by www.celysvet.cz. Všechna práva vyhrazena ! Urèeno jen pro osobní využití. Kontaktní e-mail: celysvet@email.cz
+</body></html>

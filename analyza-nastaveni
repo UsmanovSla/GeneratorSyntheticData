@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+$titl="Nastavení: Vyhodnocení analýzy pøípravy staveb z hlediska rozpoètování";
+$titl2=$titl;
+include("./ridici/menu.php");
+echo "<br>";
+include("./ridici/analyza-nastaveni.php");
+include("./ridici/menu2.php");
+?>

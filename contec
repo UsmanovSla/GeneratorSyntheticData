@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+
+$titl="CONTEC - Automatizovaný systém pro pøípravu a øízení realizace staveb";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/contec.php");
+include("./ridici/menu2.php");
+?>

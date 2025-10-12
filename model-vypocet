@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Modelování stavebního procesu: Výpoèet";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/model-vypocet.php");
+include("./ridici/menu2.php");
+?>

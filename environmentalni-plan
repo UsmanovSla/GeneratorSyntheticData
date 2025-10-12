@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+
+$titl=$mainlang[8];
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/environmentalni-plan.php");
+include("./ridici/menu2.php");
+?>

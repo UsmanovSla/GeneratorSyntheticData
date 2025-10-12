@@ -1,0 +1,7 @@
+<?php
+require("./lang/cz.php");
+
+$titl="Tisk databáze aspektù";
+$titl2=$titl;
+include("./ridici/tisk-databaze-aspektu.php");
+?>

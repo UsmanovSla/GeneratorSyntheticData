@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Modelování stavebního procesu: Pøiložené soubory";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/modelovani-soubory.php");
+include("./ridici/menu2.php");
+?>

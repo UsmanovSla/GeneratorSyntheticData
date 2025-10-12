@@ -1,0 +1,9 @@
+<?php
+$wide=1;
+require("./lang/cz.php");
+$titl="Katalog strojù";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/katalogovy-list.php");
+include("./ridici/menu2.php");
+?>

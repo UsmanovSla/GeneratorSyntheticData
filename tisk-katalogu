@@ -1,0 +1,7 @@
+<?php
+require("./lang/cz.php");
+
+$titl="Tisk katalogu strojù";
+$titl2=$titl;
+include("./ridici/tisk-katalogu.php");
+?>

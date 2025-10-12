@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Modelování stavebního procesu: Graf rozdìlení";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/rozdeleni-graf.php");
+include("./ridici/menu2.php");
+?>

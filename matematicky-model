@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+//$wide=1;
+$titl=$mainlang[6];
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/matematicky-model.php");
+include("./ridici/menu2.php");
+?>

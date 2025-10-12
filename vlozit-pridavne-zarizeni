@@ -1,0 +1,9 @@
+<?php
+$wide=1;
+require("./lang/cz.php");
+$titl="Pøídavné zaøízeni";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/vlozit-pridavne-zarizeni.php");
+include("./ridici/menu2.php");
+?>

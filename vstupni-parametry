@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Vstupní parametry modelu";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/vstupni-parametry.php");
+include("./ridici/menu2.php");
+?>

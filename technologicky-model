@@ -1,0 +1,8 @@
+<?php
+require("./lang/cz.php");
+$titl="Technologický model";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/technologicky-model.php");
+include("./ridici/menu2.php");
+?>

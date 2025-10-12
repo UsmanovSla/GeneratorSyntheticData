@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+$titl="Analýza rozpoètu dle kalkulaèního vzorce";
+$titl2=$titl;
+include("./ridici/menu.php");
+echo "<br>";
+include("./ridici/analyza-rozpoctu-vzorec.php");
+include("./ridici/menu2.php");
+?>

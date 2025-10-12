@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+
+$titl="SEM - Kniha návštìv";
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/kniha-navstev.php");
+include("./ridici/menu2.php");
+?>

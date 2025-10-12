@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+
+$titl=$mainlang[4];
+$titl2=$titl;
+include("./ridici/menu.php");
+include("./ridici/simulace.php");
+include("./ridici/menu2.php");
+?>

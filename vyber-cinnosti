@@ -1,0 +1,72 @@
+<?php $titl="Výbìr èinností";?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Language" content="cs"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title><?php echo $titl; ?></title><meta name="keywords" content="<?php echo $titl2; ?>"><meta name="description" content="<?php echo $titl2; ?>"><link rel="stylesheet" href="./skin/tisk.css"><link rel="shortcut icon" href="./skin/environmental.ico">
+</head><body>
+<h1>Výbìr èinností:</h1>
+<script type="text/javascript"> 
+function vloz () {
+return;
+}
+function vloz(t1,t2,t3) {
+opener.document.form4.CKLIC.value = t1;
+opener.document.form4.SKLIC.value = t2;
+opener.document.form4.temp_cinnost.value = t3;
+opener.document.form4.CKLIC.focus();
+}
+</script>
+
+<?php 
+
+require("./db/db.php");
+
+
+function kontrola ($promenna){
+	$promenna = EregI_Replace("<", "&lt;", $promenna);
+	$promenna = EregI_Replace(">", "&gt;", $promenna);
+	$promenna = EregI_Replace('"', '&quot;', $promenna);
+	$promenna = EregI_Replace('\'', '&quot;', $promenna);
+	$promenna=htmlspecialchars($promenna);
+return $promenna;
+}
+
+
+
+$celkem=mysql_result(mysql_query("SELECT count(*) FROM DB",$connect2),0);
+
+
+?>
+Celkem bylo nalezeno <?php echo $celkem;?> èinností
+<table border="1" style="border: 1px solid black" cellspacing="0" cellpadding="2">
+<tr>
+<td align="center"><b>Kód</b></td>
+<td align="center"><b>Zkratka</b></td>
+<td align="center"><b>Název</b></td>
+<td align="center"></td>
+</tr>
+<?php
+
+	$getclanek = mysql_query("SELECT * FROM DB Order by CisKlic",$connect2);
+	while ($clanky = mysql_fetch_array($getclanek)){
+		$CKLIC=$clanky['CisKlic'];
+		$SKLIC=$clanky['SlovKlic'];
+		$temp_cinnost=$clanky['NazCin'];
+
+$vloz="'".$CKLIC."','".$SKLIC."','".$temp_cinnost."'";
+
+
+echo '<tr><td align="center">'.$CKLIC.'</td>';
+echo '<td align="left"><b>'.$SKLIC.'</b></td>
+<td align="left">'.$temp_cinnost.'</td>
+<td align="center"><a ONCLICK="vloz('.$vloz.');" alt=" " HREF="javascript:window.close();">Vybrat èinnost :::</a></td></tr>';
+
+	}
+	echo "</table>";
+
+
+
+
+
+?>
+<br><br>
+Copyright (c) 2010 by www.celysvet.cz. Všechna práva vyhrazena ! Urèeno jen pro osobní využití. Kontaktní e-mail: celysvet@email.cz
+</body></html>

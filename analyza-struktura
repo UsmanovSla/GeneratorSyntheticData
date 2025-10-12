@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+$titl="Editace struktury WBS";
+$titl2=$titl;
+include("./ridici/menu.php");
+echo "<br>";
+include("./ridici/analyza-struktura.php");
+include("./ridici/menu2.php");
+?>

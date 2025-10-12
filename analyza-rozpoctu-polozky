@@ -1,0 +1,9 @@
+<?php
+require("./lang/cz.php");
+$titl="Analýza rozpoètu dle položek";
+$titl2=$titl;
+include("./ridici/menu.php");
+echo "<br>";
+include("./ridici/analyza-rozpoctu-polozky.php");
+include("./ridici/menu2.php");
+?>
