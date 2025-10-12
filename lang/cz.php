@@ -1,0 +1,14 @@
+<?php
+$mainlang[0]="Matematické modelování a optimalizace strojních stavebních sestav";
+$mainlang[1]="PRAHA";
+$mainlang[2]="Praha";
+$mainlang[3]="praha";
+$mainlang[4]="Poèítaèová simulace";
+$mainlang[5]="O projektu: Matematické modelování a optimalizace strojních stavebních sestav";
+$mainlang[6]="Matematický model";
+$mainlang[7]="Simulace na pøíkladu";
+$mainlang[8]="Environmentální plán";
+$mainlang[9]="Environmentální management";
+$mainlang[10]="Encyklopedie Environmentálního systému";
+$mainlang[11]="Kontaktní údaje";
+?>

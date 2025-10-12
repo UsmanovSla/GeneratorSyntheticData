@@ -1,0 +1,1 @@
+<?php header("Content-type: text/x-csv");header("Content-Disposition: attachment; filename=optimalizace_pridavna_zarizeni-2011-12-11-17c8bc794ba19fe3771e2bf2b648f02b.csv");?>"id","nazev","oznaceni","pocet_jednotek","jednotka","pracovni_cyklus_sek","poznamka","pracovni_vykon_jednotka_hod",
