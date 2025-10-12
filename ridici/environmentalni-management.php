@@ -1,0 +1,10 @@
+<?php 
+echo "<h1>".$mainlang[9]."</h1>";
+?><br>
+Po vstupu do Evropské unie Èeská republika pøebírá evropské normy. Následkem tohoto jsou stále pøísnìjší poadavky na zpracování agend pøípravy jednotlivıch staveb. <br><br>
+To znamená, e kadá stavba musí bıt bìhem své realizace øízena a spravována podle dokumentù, danıch jednak zvyklostmi uívanımi u dané stavební firmy, jednak poadavky investora a dále respektováním norem ISO (základní dokumenty stavebnì technologického projektu vèetnì síového grafu a èasového plánu, plán jakosti – kontrolní a zkušební plán atd.) i vzhledem k vlivùm stavební èinnosti na ivotní prostøedí.<br><br>
+Z kadodenní zkušenosti z práce na staveništi je mono konstatovat, e prakticky kadı stavební proces provádìnı pracovní èetou má urèitı negativní vliv na ivotní prostøedí. Mnohé procesy jsou hluèné, jiné pracovní èety pracují s jedovatımi látkami, mnohé produkují pomìrnì znaèné mnoství odpadu. <br><br>
+Systém environmentálního managementu (EMS -Environmetal Management System) je souèástí celkového integrovaného systému øízení spoleènosti, kterı vyuívá organizaèní strukturu, èinnosti, odpovìdnosti, postupy, procesy a zdroje spoleènosti pro realizaci Environmentální politiky.<br><br>
+Systém øízení organizace a auditu z hlediska ochrany ivotního prostøedí (EMAS) je vedle systému EMS jedním z mezinárodnì uznávanıch systémù environmentálního managementu, kterı je validován nezávislım ovìøovatelem.<br><br>
+Dodavatelé (podzhotovitelé) a nájemci, ve vztahu ke spoleènosti, jsou smluvnì vázáni k plnìní poadavkù systému environmentálního managementu, zejména dodrování poadavkù platnıch environmentálních pøedpisù,  vèetnì sankèních ustanovení pøi porušení pravidel spoleènosti.<br><br>
+Úèelem zavedeného systému environmentálního managementu je neustálé zlepšování environmentálního profilu a pøispívat tak k udritelnému rozvoji.<br><br>
