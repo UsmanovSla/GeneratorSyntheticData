@@ -1,0 +1,87 @@
+.div_main{position: absolute; top: 180px;left:0px;z-index:0;padding:0px 10px 0px 180px;text-align:left;background-color:white;width:810px;_width:1000px}
+.div_logo{background: #ececec;border-bottom: 1px solid #0066bb;padding: 0px 10px 0px 10px;height:105px;}
+.div_hlavicka{position: absolute; left: 0px;top: 0px;z-index : 2;margin:0 0 0 0;width:100%;text-align:left;}
+.div_left{position: absolute; top:180px;left:5px;z-index : 6;width:175px;text-align:left;vertical-align:top;}
+.div_reklama{position: absolute; left: 180px;top: 35px;z-index : 2;margin:0 0 0 0;font-size:32px;font-family:Verdana,Arial,Helvetica,sans-serif;}
+.div_find1{position: absolute; right: 215px;top: 7px;z-index : 2;margin:0 0 0 0;}
+.div_find2{position: absolute; right: 2px;top: 2px;z-index : 2;margin:0 0 0 0;}
+.div_svatek{text-align:right;position: absolute; right: 10px;top: 138px;z-index : 2;margin:0 0 0 0;}
+body{margin: 0px 0px 0px 0px;text-align: center;}
+font,th,td,p{font-family:Verdana,Arial,Helvetica,sans-serif;}
+p,td{font-size:13px;color:#000000;}
+a:link,a:active,a:visited{text-decoration:none;color:#0066bb;}
+a:hover{text-decoration:underline;color:#dd6900;}
+.vlevo2{font-weight:bolder;font-family:Arial;line-height:180%;font-size:12px;color:#000000;vertical-align:top;}
+a.vlevo{font-family:Arial;font-size:12px;color:#0066bb;}
+a.vlevo:hover{font-family:Arial;font-size:12px;color:#dd6900;}
+hr{height:0;border:0 solid #bbddee;border-top-width:1px;}
+h1{font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;text-decoration:none;line-height:120%;color:#000000;}
+h2{font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;text-decoration:none;color:#000000;margin:3px;}
+h3{font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;text-decoration:none;color:#000000;}
+h4{font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:13px;font-weight:normal;text-decoration:none;color:#000000;margin:0px;}
+a.h4:hover{text-decoration:underline;color:#dd6900;}
+.bodyline{background-color:#ffffff;border:1px solid #0066bb;}
+.forumline{background-color:#ffffff;border:1px solid #0066bb;}
+td.row1{background-color:#ffffff;}
+td.row2{background-color:#ececec;}
+td.row3{background-color:#eeeeff;}
+td.row4{background-color:#ddddff;}
+td.row5{background-color:#ccccff;}
+td.rowpic{background-color:#77cccc;background-image:url(cellpic2.jpg);}
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom{background-color:#cceeff;border:2px solid #ffffff;}
+td.cat,td.catHead,td.catBottom{height:29px;border-width:0;}
+td.row3Right,td.spaceRow{background-color:#cfd7bb;border:#ffffff;border-style:solid;}
+th.thHead,td.catHead{font-size:11px;border-width:1px 1px 0;}
+th.thSides,td.catSides,td.spaceRow{border-width:0 1px;}
+th.thRight,td.catRight,td.row3Right{border-width:0 1px 0 0;}
+th.thLeft,td.catLeft{border-width:0 0 0 1px;}
+td.catLeft2{border-width:0;}
+th.thBottom,td.catBottom{border-width:0 1px 1px;}
+.top{background-color:#77cccc;font-size:11px;font-weight:bold;}
+.gen{font-size:12px;text-align:justify;}
+.gen2{font-size:13px;text-align:justify;color:#000000;}
+.genmed{font-size:11px;}
+.gensmall{font-size:11px;}
+.gen,.genmed,.gensmall{color:#000000;}
+a.gen,a.genmed,a.gensmall{color:#0066bb;text-decoration:none;}
+a.gen:hover,a.genmed:hover,a.gensmall:hover{color:#dd6900;text-decoration:underline;}
+.mainmenu{font-size:11px;color:#000000;}
+a.mainmenu{text-decoration:none;color:#0066bb;font-weight:bold;}
+a.mainmenu:hover{text-decoration:underline;color:#dd6900;font-weight:bold;}
+.name{font-weight:normal;font-size:11px;color:#000000;}
+a.name{text-decoration:underline;color:#dd6900;}
+.namem{letter-spacing:1px;font-weight:normal;font-size:11px;color:#000000;}
+.name2{font-size:10px;color:#000000;}
+.name2gr{font-size:11px;color:#0066bb;}
+.name2br{font-size:11px;color:#a52a2a;}
+.namered{font-size:11px;font-weight:bold;color:#ff0000;}
+.name3{font-size:11px;color:#000000;}
+.top10{font-weight:bold;font-size:11px;color:#ff0000;}
+.top10em{font-style:italic;font-size:11px;}
+.top10emgr{color:green;font-style:italic;font-size:11px;}
+.copyright{font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;color:#444444;letter-spacing:-1px;}
+a.copyright{color:#444444;text-decoration:none;}
+a.copyright:hover{color:#000000;text-decoration:underline;}
+textarea,select{color:#000000;font:normal 13px Verdana,Arial,Helvetica,sans-serif;border-color:#0066bb;border-width:1px;}
+.listnahore {Vertical-align:middle;height:20px;margin: 0px 0px 0px 0px;padding: 4px 5px 4px 5px;background: #cceeff;border-bottom: 1px solid #0066bb;text-align:left;}
+.listnahore a:link, .listnahore a:visited {font-family:Verdana;text-decoration: none;font-size:12px;color: #535F62;}
+.listnahore a:hover, .listnahore a:active {font-family:Verdana;text-decoration: none;font-size:12px;color: #000000;}
+.omal{font-family:verdana,arial,sans-serif;font-size:11px;font-weight:bold;line-height:14px;} 
+a.omal:link,a.omal:visited,a.omal:hover,a.omal:active{color:#0066bb;cursor:pointer;text-decoration: underline;font-size:13px;font-weight:bold;line-height:18px;}
+.omal2{font-family:verdana,arial,sans-serif;color:#000000;display:block;font-size:10px;line-height:13px;} 
+.omal3{font-family:verdana,arial,sans-serif;color:#000000;font-size:10px;line-height:12px;}
+a.hlk1,a.hlk1:link,a.hlk1:active,a.hlk1:visited{font-family:Arial;font-size:10px;color:#000000;}
+a.hlk1:hover{text-decoration:underline;color:#dd6900;}
+.sprim{background: url(ikony.png) no-repeat top left;_cursor:Pointer;cursor:Pointer;}
+#m-1 { background-position: 0 0; width: 40px; height: 40px; } 
+#m-10 { background-position: 0 -41px; width: 40px; height: 40px; } 
+#m-11 { background-position: 0 -82px; width: 40px; height: 40px; } 
+#m-12 { background-position: 0 -123px; width: 40px; height: 40px; } 
+#m-2 { background-position: 0 -164px; width: 40px; height: 40px; } 
+#m-3 { background-position: 0 -205px; width: 40px; height: 40px; } 
+#m-4 { background-position: 0 -246px; width: 40px; height: 40px; } 
+#m-5 { background-position: 0 -287px; width: 40px; height: 40px; } 
+#m-6 { background-position: 0 -328px; width: 40px; height: 40px; } 
+#m-7 { background-position: 0 -369px; width: 40px; height: 40px; } 
+#m-8 { background-position: 0 -410px; width: 40px; height: 40px; } 
+#m-9 { background-position: 0 -451px; width: 40px; height: 40px; }
