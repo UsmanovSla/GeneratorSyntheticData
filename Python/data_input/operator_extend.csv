@@ -1,0 +1,36 @@
+id, machine, name, designation, unit_count, unit, work_cycle_sec, note, work_performance_unit_hour
+3, 45, GP Bucket 416F, 416F Backhoe Loader, 0.96, m3, 0, , 0
+4, 45, MP Bucket 416E, 416F Backhoe Loader, 1, m3, 0, , 0
+5, 48, Multi Purpose 450E, 450E Backhoe Loader, 1.15, m3, 0, , 0
+7, 59, 458GP-0.25, 458GP, 0.25, m3, 0, , 0
+8, 59, 610GP-0.30, 610GP, 0.3, m3, 0, , 0
+9, 59, 760GP-0.40, 760GP, 0.4, m3, 0, , 0
+10, 59, 1067GP-0.63, 1067GP, 0.63, m3, 0, , 0
+11, 59, 1218GP-0.74, 1218GP, 0.74, m3, 0, , 0
+12, 60, 600mm, 600mm, 0.3, m3, 0, , 0
+13, 60, 750mm, 750mm, 0.4, m3, 0, , 0
+14, 60, 950mm, 950mm, 0.52, m3, 0, , 0
+15, 60, 1055mm, 1055mm, 0.63, m3, 0, , 0
+16, 86, 1524 mm, 1524 mm, 0.36, m3, 0, , 0
+17, 88, 1676 mm 66 in 1676 mm 66 in 0.4, m3, 0, , 0
+18, 90, 1829 mm 72 in 1829 mm 72 in 0.44, m3, 0, , 0
+19, 92, 1981 mm 78 in 1981 mm 78 in 0.48, m3, 0, , 0
+20, 93, 2134 mm 84 in 2134 mm 84 in 0.63, m3, 0, , 0
+21, 87, 1524 mm 	, 1524 mm 	, 0.36, m3, 0, , 0
+22, 89, 1676 mm 66 in 1676 mm 66 in 0.4, m3, 0, , 0
+23, 91, 1676 mm 66 in 1676 mm 66 in 0.4, m3, 0, , 0
+24, 97, 2134 mm 84 in 2134 mm 84 in 0.63, m3, 0, , 0
+25, 94, 1524 mm 60 in 1524 mm 60 in 0.36, m3, 0, , 0
+26, 99, 1676 mm 66 in 1676 mm 66 in 0.4, m3, 0, , 0
+27, 95, 1676 mm 66 in 1676 mm 66 in 0.4, m3, 0, , 0
+28, 98, 1524 mm 60 in 1524 mm 60 in 0.4, m3, 0, , 0
+29, 96, 1981 mm 78 in 1981 mm 78 in 0.48, m3, 0, , 0
+30, 101, 1829 mm 72 in 1829 mm 72 in 0.44, m3, 0, , 0
+31, 100, 1829 mm 72 in 1829 mm 72 in 0.44, m3, 0, , 0
+32, 105, 1.85 m 73 in 1.85 m 73 in 0.76, m3, 0, , 0
+33, 125, Heavy Duty Rock, 2760 Heavy Duty Rock, 5.2, m3, 0, , 0
+34, 125, Heavy Duty Rock reinforced, 2760 Heavy Duty Rock reinforced, 5.7, m3, 0, , 0
+35, 125, Rock, 2760 Rock, 6.5, m3, 0, , 0
+36, 0, Korba Tatra, Tatra, 10, m3, 0, , 0
+37, 0, Korba Tatra, Tatra, 18, m3, 0, , 0
+38, 194, Korba Tatra, Tatra, 18, m3, 0, , 0

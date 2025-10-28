@@ -1,0 +1,7 @@
+id, model, name, performance, cycle, maximum_count, area, VC, FC, L, TL, CL, SP, co2, optimal_count, calculation_costs, calculation_time, calculation_co2, calculation_reliability, calculation_energy, machine, additional_equipment, max_possible_count, required_count
+2, 1, Pevný dempr Tatra 163 Jamal, 21, 2400, 20, 25, 1500, 1200, 1, 15, 1000, 250, 10, 0, 0, 0, 0, 0, 0, 4, 0, 400, 14
+3, 1, Sklápěč trojstranný TATRA T815-221S45/370 4x4, 13.7, 2100, 40, 16, 1000, 750, 0.5, 20, 2000, 100, 5, 0, 0, 0, 0, 0, 0, 3, 0, 625, 21
+4, 5, Kloubový dempr 22.2t 225kW, 14.3, 4800, 15, 100, 1500, 500, 3, 45, 500, 16, 200, 0, 0, 0, 0, 0, 0, 41, 0, 54, 3
+7, 5, Sklápěče jednostranný Tatra 8x8 / Korba Tatra, 18, 4000, 10, 150, 2000, 1000, 2, 60, 600, 20, 250, 0, 0, 0, 0, 0, 0, 194, 38, 36, 3
+6, 5, Pevný dempr 46t 534kW, 40, 5000, 5, 250, 4600, 2000, 4, 90, 1000, 40, 380, 0, 0, 0, 0, 0, 0, 38, 0, 21, 2
+9, 5, Sklápěče jednostranný Tatra 6x6 / Korba Tatra, 10, 3600, 12, 75, 1250, 400, 2, 30, 500, 12, 125, 0, 0, 0, 0, 0, 0, 195, 36, 72, 5
