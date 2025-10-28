@@ -8,17 +8,11 @@ Keywords: AI Model; Synthetic Data; Neural Network; Machine Learning; Data Scien
 ## Python Generator:
 ### *Directory* : /python
 
-/data_input
-
-additional csv files (task, machinery, customer, operator)
-  
-/data_output
-
-  without file: too big (1.6 Gb, >17,000,000 rows)
-  
-Generator.ipynb
-
-Generator.html
-
+/data_input<br>
+&nbsp&nbsp additional csv files (task, machinery, customer, operator)<br>
+/data_output<br>
+&nbsp&nbsp without file: too big (1.6 Gb, >17,000,000 rows)<br>
+Generator.ipynb<br>
+Generator.html<br>
+<br><br>
 *Version 1.04 / Usmanov / @ CTU in Prague, Faculty of Civil Engineering*
-
