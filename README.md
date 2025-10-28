@@ -10,7 +10,7 @@ Keywords: AI Model; Synthetic Data; Neural Network; Machine Learning; Data Scien
 
 /data_input
 
-  additional csv files (task, machinery, customer, operator)
+additional csv files (task, machinery, customer, operator)
   
 /data_output
 
@@ -19,3 +19,6 @@ Keywords: AI Model; Synthetic Data; Neural Network; Machine Learning; Data Scien
 Generator.ipynb
 
 Generator.html
+
+*Version 1.04 / Usmanov / @ CTU in Prague, Faculty of Civil Engineering*
+
